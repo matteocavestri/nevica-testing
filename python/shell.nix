@@ -1,10 +1,12 @@
 { pkgs ? import <nixpkgs> { } }:
 pkgs.mkShell {
   buildInputs = [
-    pkgs.python311
-    pkgs.python311Packages.numpy
-    pkgs.python311Packages.cython
-    pkgs.python311Packages.pytest
+    pkgs.python312
+    pkgs.pypy3
+    pkgs.python312Packages.numpy
+    pkgs.python312Packages.cython
+    pkgs.python312Packages.pytest
+    pkgs.python312Packages.setuptools
     pkgs.stdenv.cc.cc.lib
   ];
 

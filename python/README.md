@@ -15,10 +15,12 @@ python main.py # Run
 mkdir venv && python3 -m venv venv && source venv/bin/activate # Enter Venv
 pip install -r requirements.txt # Install dependencies
 pytest # Test
-pypy main.py # Run
+pypy3 main.py # Run
 ```
 
 ## Cython
+
+`setup.py` uses `setuptools` module. You can run this code using Python 3.12+
 
 ```bash
 mkdir venv && python3 -m venv venv && source venv/bin/activate # Enter Venv

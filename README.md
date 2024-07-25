@@ -5,9 +5,8 @@
 ## Test with Nevica
 
 ```bash
-git clone https://github.com/matteocavestri/nevica-testing.git
-nix develop --extra-experimental-features 'nix-command flakes' github:matteocavestri/nevica#nevica-full
-
+git clone https://github.com/matteocavestri/nevica-testing.git && cd nevica-testing
+nix run github:matteocavestri/nevica#nevica-full
 ```
 
 ## Nevica Support
