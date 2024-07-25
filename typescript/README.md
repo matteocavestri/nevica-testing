@@ -2,6 +2,7 @@
 
 ```bash
 npm install # Install dependencies
-npm test # Test
-npm start # Run
+npm run build # Build
+npm run test # Test
+npm run start # Run
 ```

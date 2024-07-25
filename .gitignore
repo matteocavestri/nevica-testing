@@ -24,6 +24,8 @@ javascript/package-lock.json
 # Kotlin 
 kotlin/.gradle
 kotlin/build
+kotlin/.settings
+kotlin/.project
 
 # Python
 python/build/
@@ -42,6 +44,8 @@ rust/quicksort/Cargo.lock
 # Scala
 scala/.gradle
 scala/build
+scala/.project
+scala/.settings
 
 # Typescript
 typescript/dist
