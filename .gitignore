@@ -11,6 +11,16 @@ cpp/test_quicksort
 # Golang
 golang/main
 
+# Java
+java/.gradle
+java/.settings
+java/.project
+java/build
+
+# Kotlin 
+kotlin/.gradle
+kotlin/build
+
 # Python
 python/build/
 python/venv
@@ -24,3 +34,7 @@ python/.pytest_cache
 # Rust
 rust/quicksort/target/
 rust/quicksort/Cargo.lock
+
+# Scala
+scala/.gradle
+scala/build
