@@ -17,6 +17,10 @@ java/.settings
 java/.project
 java/build
 
+# Javascript
+javascript/node_modules
+javascript/package-lock.json
+
 # Kotlin 
 kotlin/.gradle
 kotlin/build
@@ -38,3 +42,8 @@ rust/quicksort/Cargo.lock
 # Scala
 scala/.gradle
 scala/build
+
+# Typescript
+typescript/dist
+typescript/package-lock.json
+typescript/node_modules
