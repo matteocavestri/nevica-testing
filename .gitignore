@@ -1,0 +1,26 @@
+# C
+c/build/
+c/quicksort
+c/test_quicksort
+
+# C++
+cpp/build/
+cpp/quicksort
+cpp/test_quicksort
+
+# Golang
+golang/main
+
+# Python
+python/build/
+python/venv
+python/quicksort/__pycache__/
+python/quicksort_cython/__pycache__/
+python/quicksort_cython/quicksort.c
+python/quicksort_cython/*.so
+python/tests/__pycache__/
+python/.pytest_cache
+
+# Rust
+rust/quicksort/target/
+rust/quicksort/Cargo.lock
