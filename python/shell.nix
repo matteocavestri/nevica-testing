@@ -4,6 +4,7 @@ pkgs.mkShell {
     pkgs.python311
     pkgs.python311Packages.numpy
     pkgs.python311Packages.cython
+    pkgs.python311Packages.pytest
     pkgs.stdenv.cc.cc.lib
   ];
 

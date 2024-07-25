@@ -4,13 +4,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define ARRAY_SIZE 100000000
+#define ARRAY_SIZE 1000
 
 int main() {
   int arr[ARRAY_SIZE];
   srand(time(0));
   for (int i = 0; i < ARRAY_SIZE; i++) {
-    arr[i] = rand() % 100000000;
+    arr[i] = rand() % 1000;
   }
 
   printf("Unsorted array:\n");

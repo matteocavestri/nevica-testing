@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const arraySize = 100000000
+const arraySize = 1000
 
 func printArray(arr []int) {
 	for _, num := range arr {
@@ -20,7 +20,7 @@ func main() {
 	arr := make([]int, arraySize)
 	rand.Seed(time.Now().UnixNano())
 	for i := range arr {
-		arr[i] = rand.Intn(100000000)
+		arr[i] = rand.Intn(1000)
 	}
 
 	fmt.Println("Unsorted array:")

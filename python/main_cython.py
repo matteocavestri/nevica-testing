@@ -1,3 +1,4 @@
+# TODO: Make test
 import random
 import time
 import numpy as np
@@ -8,7 +9,7 @@ from quicksort_cython.quicksort import (
 
 def main():
     # Define the array size
-    n = 10000000
+    n = 1000
 
     # Generate an array of size n with random numbers between 1 and n
     # arr = [random.randint(1, n) for _ in range(n)]

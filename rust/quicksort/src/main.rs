@@ -11,8 +11,8 @@ fn print_array(arr: &[i32]) {
 }
 
 fn main() {
-    const ARRAY_SIZE: usize = 100000000;
-    let mut arr: Vec<i32> = (0..ARRAY_SIZE).map(|_| rand::thread_rng().gen_range(0..100000000)).collect();
+    const ARRAY_SIZE: usize = 1000;
+    let mut arr: Vec<i32> = (0..ARRAY_SIZE).map(|_| rand::thread_rng().gen_range(0..1000)).collect();
 
     println!("Unsorted array:");
     print_array(&arr);

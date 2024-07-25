@@ -5,13 +5,13 @@
 #include <iostream>
 #include <vector>
 
-#define ARRAY_SIZE 100000000
+#define ARRAY_SIZE 1000
 
 int main() {
   std::vector<int> arr(ARRAY_SIZE);
   std::srand(std::time(0));
   for (int i = 0; i < ARRAY_SIZE; ++i) {
-    arr[i] = std::rand() % 100000000;
+    arr[i] = std::rand() % 1000;
   }
 
   std::cout << "Unsorted array:\n";
